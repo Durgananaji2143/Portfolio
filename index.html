@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,36 +13,37 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="font-['Open_Sans']">
-    <nav class="fixed w-full h-16 px-6 bg-sky-500">
+    <nav class="fixed w-full h-16 px-6 bg-cyan-900">
       <div class="flex text-2xl pl-2">
         <span class="text-white mt-4">Durga Nanaji</span>
-        <div class="ml-auto text-2xl mt-4">
+        <div class="navr relative ml-auto text-2xl mt-4">
           <a
             href="#home"
-            class="text-white no-underline p-2 mr-4 mt-4 rounded-lg hover:bg-black hover:opacity-50 hover:delay-100"
+            class="text-white no-underline p-2 pr-2 mr-4 rounded-lg"
             >Home</a
           >
           <a
             href="#about"
-            class="text-white no-underline p-2 mr-4 mt-4 rounded-lg hover:bg-black hover:opacity-50 hover:delay-100"
+            class="text-white no-underline p-2 pr-2 mr-4 rounded-lg"
             >About</a
           >
           <a
             href="#projects"
-            class="text-white no-underline p-2 mr-4 mt-4 rounded-lg hover:bg-black hover:opacity-50 hover:delay-100"
+            class="text-white no-underline p-2 pr-2 mr-4 rounded-lg"
             >Projects</a
           >
           <a
             href="#contact"
-            class="text-white no-underline p-2 mr-4 mt-4 rounded-lg hover:bg-black hover:opacity-50 hover:delay-100"
+            class="text-white no-underline p-2 pr-2 mr-4 rounded-lg"
             >ContactUs</a
           >
+          <div class="animation start-home"></div>
         </div>
       </div>
     </nav>
     <header
       id="home"
-      class="bg-gradient-to-t from-cyan-100 to-blue-200 text-center px-12 pt-40 pb-12"
+      class="bg-gradient-to-t from-sky-300 to-cyan-800 text-center px-12 pt-40 pb-12"
     >
       <div>
         <img src="./images/321.jpeg" class="w-32 h-32 rounded-full m-auto" />
@@ -89,7 +90,7 @@
               class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"
             ></span>
             <span
-              class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-blue-600 group-hover:-rotate-180 ease"
+              class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-500 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-cyan-900 group-hover:-rotate-180 ease"
             ></span>
             <span class="relative font-bold">Resume</span>
           </span>
@@ -100,7 +101,7 @@
         </a>
       </button>
     </header>
-    <div id="about" class="bg-gradient-to-t from-blue-100 to-blue-300">
+    <div id="about" class="bg-gradient-to-t from-blue-300 to-indigo-500">
       <div>
         <h1 class="text-5xl text-center pt-24">About Me</h1>
         <h2 class="text-3xl ml-16 text-Sky-800 pt-12">A bit about me</h2>

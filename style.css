@@ -1,0 +1,47 @@
+.navr .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  background: #2c3e50;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+}
+.navr a {
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.navr a:nth-child(1) {
+  width: 100px;
+}
+.navr .start-home,
+a:nth-child(1):hover ~ .animation {
+  width: 100px;
+  left: 10px;
+  height: 40px;
+}
+.navr a:nth-child(2) {
+  width: 100px;
+}
+.navr a:nth-child(2):hover ~ .animation {
+  width: 100px;
+  left: 155px;
+  height: 40px;
+}
+.navr a:nth-child(3) {
+  width: 110px;
+}
+.navr a:nth-child(3):hover ~ .animation {
+  width: 110px;
+  left: 305px;
+  height: 40px;
+}
+.navr a:nth-child(4) {
+  width: 140px;
+}
+.navr a:nth-child(4):hover ~ .animation {
+  width: 140px;
+  left: 465px;
+  height: 40px;
+}
