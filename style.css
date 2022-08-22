@@ -7,7 +7,7 @@
   border-radius: 8px;
   transition: all 0.5s ease 0s;
   height: 40px;
-  top : -2px;
+  top: -2px;
 }
 .navr a {
   padding: 2rem;
@@ -20,26 +20,26 @@
 .navr .start-home,
 a:nth-child(1):hover ~ .animation {
   width: 100px;
-  left: 16px;
+  left: 12px;
 }
 .navr a:nth-child(2) {
   width: 100px;
 }
 .navr a:nth-child(2):hover ~ .animation {
   width: 100px;
-  left: 168px;
+  left: 157px;
 }
 .navr a:nth-child(3) {
   width: 110px;
 }
 .navr a:nth-child(3):hover ~ .animation {
   width: 110px;
-  left: 326px;
+  left: 306px;
 }
 .navr a:nth-child(4) {
   width: 140px;
 }
 .navr a:nth-child(4):hover ~ .animation {
   width: 140px;
-  left: 500px;
+  left: 468px;
 }
